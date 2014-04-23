@@ -1,0 +1,23 @@
+h1. Spoiler Alert
+
+A open source web service (powered by node/express) that provides spoilers to popular subjects.
+It's the world's most performant way to ruin somebody's good time.
+
+It is also:
+
+* a port of "my original sinatra app":https://github.com/nodanaonlyzuul/spoiler-alert
+* An excuse to build a simple node app.
+* Inspired by an unsolicited and thorough summary of *M Knight Shyamalan's* "The Devil":http://www.imdb.com/title/tt1314655/ by - "Jeff Ng.":http://www.linkedin.com/in/jefficly
+
+h2. Example Session
+
+@curl http://localhost:4567/spoilers/the-others@
+  @=> {"spoiler":"Nicole Kidman is the one who's actually dead. The 'ghosts' are live people in our world."}@
+
+@curl http://localhost:4567/spoilers/the-godfather-2@
+  @=> {"spoiler":"Fredo sold Michael out. He broke his heart."}@
+
+@curl http://localhost:4567/spoilers/the-crying-game@
+  @=> {"spoiler":"Dil - The beautiful woman is actually a man and it complicates Stephen Rea's character's feelings."}@
+
+h3. Please add spoilers to @resources/spoilers.yml@ and rock a pull request.
