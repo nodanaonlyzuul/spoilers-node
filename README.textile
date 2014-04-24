@@ -1,4 +1,4 @@
-h1. Spoiler Alert
+h1. spoilers-node
 
 A open source web service (powered by node/express) that provides spoilers to popular subjects.
 It's the world's most performant way to ruin somebody's good time.
